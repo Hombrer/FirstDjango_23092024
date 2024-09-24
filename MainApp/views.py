@@ -21,12 +21,11 @@ items = [
 
 
 def home(request):
-    # text = """
-    # <h1>"Изучаем django"</h1>
-    # <strong>Автор</strong>: <i>Иванов И.П.</i>
-    # """
-    # return HttpResponse(text)
-    return render(request, 'index.html')
+    context = {
+        "name": "Петров Иван Николаевич",
+        "email": "my_email@mail.ru"
+    }
+    return render(request, 'index.html', context)
 
 
 def about(request):
