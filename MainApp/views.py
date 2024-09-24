@@ -30,6 +30,9 @@ def about(request):
         "email": "vasya@mail.ru"
     }
     text = f"""
+        <header>
+        / <a href="/"> Home </a> / <a href="/items"> Items</a> / <a href="/about"> About </a>
+        </header>
         <h2> Информация об авторе </h2>
         Имя: <b>{author['name']}</b><br>
         Отчество: <b>{author['middle_name']}</b><br>
