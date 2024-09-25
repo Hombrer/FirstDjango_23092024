@@ -5,7 +5,8 @@
     "fields": {
         "name": "Кроссовки",
         "brand": "abibas",
-        "count": 10
+        "count": 10,
+        "description": "Удобные кроссовки на каждый день"
     }
 },
 {
@@ -14,7 +15,8 @@
     "fields": {
         "name": "Куртка кожаная",
         "brand": "nuke",
-        "count": 2
+        "count": 2,
+        "description": "Теплая и удобная"
     }
 },
 {
@@ -23,7 +25,8 @@
     "fields": {
         "name": "Coca-cola 1 литр",
         "brand": "coca-cola",
-        "count": 12
+        "count": 12,
+        "description": "Приятный вкус"
     }
 },
 {
@@ -32,7 +35,8 @@
     "fields": {
         "name": "Картофель фри",
         "brand": "tasty and dot",
-        "count": 0
+        "count": 0,
+        "description": "Большая порция"
     }
 },
 {
@@ -41,7 +45,8 @@
     "fields": {
         "name": "Кепка",
         "brand": "textil fabric",
-        "count": 124
+        "count": 124,
+        "description": "Стильная и теплая"
     }
 }
 ]
