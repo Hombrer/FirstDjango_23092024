@@ -17,3 +17,14 @@
 ```
 python manage.py shell_plus --ipython
 ```
+
+## Выгрузка и загрузка данных
+### Выгрузить данные из БД
+```
+python manage.py dumpdata MainApp --indent 4 > MainApp/fixtures/save_all.json
+```
+
+###  Загрузить данные в БД
+```
+python manage.py loaddata MainApp/fixtures/save_all.json
+```
