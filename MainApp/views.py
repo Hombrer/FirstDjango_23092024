@@ -50,7 +50,7 @@ def get_item(request, item_id: int):
             context = {"item": item}
             return render(request, "item_page.html", context)
     # Если элемент не найден - нужно вернуть соотвествующий ответ(response)
-    return HttpResponseNotFound(f"Item with id={item_id} not found.")
+    return render(request, "errors.html", {'error': f"Item with id={item_id} not found."})
 
 
 def get_items(request):
