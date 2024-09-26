@@ -33,10 +33,12 @@ def get_item(request, item_id: int):
         # Если элемент не найден - нужно вернуть соотвествующий ответ(response)
         return render(request, "errors.html", {'error': f"Item with id={item_id} not found."})
     else:
-        context = {"item": item}
+        context = {
+            "item": item,
+            "colors": item.colors.all()
+            }
         return render(request, "item_page.html", context)
     
-
 
 def get_items(request):
     items = Item.objects.all()
