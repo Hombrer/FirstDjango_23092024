@@ -9,7 +9,7 @@
 3. Установить нужные пакеты:  
 `python -m pip install -r requirements.txt`
 4. Применить все миграция для создания таблиц в БД 
-`python manage migrate`
+`python manage.py migrate`
 5. Запустить сервер:  
 `python manage.py runserver`
 
